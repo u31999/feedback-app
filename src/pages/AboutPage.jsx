@@ -1,11 +1,15 @@
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import Card from '../component/shared/Card';
 
 
 function AboutPage() {
   return (
-    <div>
-        About      
-    </div>
+    <Card>
+        <div>About</div>
+        <div>
+          <Link to='/'>Return home</Link>
+        </div>      
+    </Card>
   )
 }
 

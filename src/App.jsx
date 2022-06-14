@@ -35,13 +35,12 @@ function App () {
                 <Feedbackstats feedback={feedback} />
                 <FeedbackList feedback={feedback}
                     handleDelete={deleteFeedback} />
+                <AboutIconLink />
             </>
-        }>
-            
-        </Route>
+        } />
+
             <Route path='/about' element={<AboutPage />} />
         </Routes>
-        <AboutIconLink />
         </div>
         </Router>
     )
