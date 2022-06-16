@@ -211,6 +211,42 @@ input:focus {
   margin: 10px 0;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5rem;
+  gap: .3rem;
+}
+
+.footer-container div:first-child {
+  font-size: 12px;
+  color: #ff6a95;
+}
+
+.footer-container div:last-child {
+  display: flex;
+  gap: 8px;
+}
+
+.footer-container div:last-child button {
+  background-color: transparent;
+  display: flex;
+  border: none;
+
+}
+.footer-container div:last-child button svg {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #ff6a95;
+}
+
+.footer-container div:last-child button:hover svg {
+  cursor: pointer;
+  color: purple;
+}
+
+
 @media (max-width: 600px) {
   .rating li {
     margin: 10px 3px;
