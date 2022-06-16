@@ -1,6 +1,5 @@
 {
   "name": "feedback-app",
-  "homepage": "http://u31999.github.io/feedback-app",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://my-json-server.typicode.com/u31999/server-feedback-app",
@@ -26,8 +25,6 @@
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json --port 5000",
     "dev": "concurrently \"npm run server\" \"npm start\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
