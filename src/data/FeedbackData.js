@@ -1,4 +1,4 @@
-const FeebackData = [
+const FeedbackData = [
      {
     id: 1,
     rating: 10,
@@ -16,4 +16,4 @@ const FeebackData = [
   },
 ]
 
-export default FeebackData;
+export default FeedbackData;
